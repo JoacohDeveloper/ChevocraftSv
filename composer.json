@@ -1,0 +1,14 @@
+{
+    "name": "intel/chevocraft-web",
+    "description": "Pagina de ChevoCraft",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Intel\\ChevocraftWeb\\": "src/",
+            "Model\\" : "./models",
+            "Controllers\\" : "./controllers",
+            "MVC\\": "./"
+        }
+    },
+    "require": {}
+}
